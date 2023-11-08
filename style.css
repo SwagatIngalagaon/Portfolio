@@ -1,0 +1,81 @@
+/* Basic styling, you can customize this further */
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Add this CSS to style the bullet points in the list */
+ul {
+    list-style-type: disc; /* or 'circle' or 'square' for different bullet styles */
+    padding-left: 20px; /* Adjust the padding as needed */
+}
+
+li {
+    margin-bottom: 5px; /* Add some spacing between list items */
+}
+
+/* Change the color of headings */
+h2 {
+    color: #b20909; /* Blue color for main headings */
+}
+
+h3 {
+    color: #13c7e3; /* Orange color for subheadings */
+}
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D');
+    background-size: cover; /* Adjust the background size as needed */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.header-info {
+    flex: 1; /* Allows it to take up remaining space in the header */
+    text-align: center; /* Center-align the content */
+}
+
+/* Style the profile photo */
+.profile-photo {
+    margin-left: 50px; /* Adjust the margin as needed to create spacing between the photo and text */
+
+}
+
+/* Style the profile photo image */
+.profile-photo img {
+    width: 150px; /* Adjust the width of the photo */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #007BFF; /* Add a border around the photo */
+    border-radius: 50%; /* Make it circular */
+}
+
